@@ -1,0 +1,228 @@
+/* Шрифт */
+@font-face 
+{
+    font-family: 'TT Lakes';
+    src: url(public/TTLakes/TTLakes-Regular.woff) format("truetype");
+    font-weight:normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'TT Lakes';
+    src: url(public/TTLakes/TTLakes-Bold.woff) format("truetype");
+    font-weight:bold;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'TT Lakes Medium';
+    src: url(public/TTLakes/TTLakes-Medium.woff) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #1B1C21;
+  font-family: 'TT Lakes';
+  letter-spacing: -0.2px;
+  text-decoration: none;
+}
+ 
+
+/* заголовок сайта*/
+.aside-menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  width: 320px;                
+  height: 100%;            
+  padding: 0 24px;            
+  background: #fff;           
+  box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02),
+  16px 0 52px rgba(14, 24, 80, 0.2);
+  z-index: 1000;              
+}
+
+
+.aside-header {
+  height: 51px;
+  margin: 0;
+  margin-bottom: 50.27px;
+  margin-top: 18.73px;
+}
+
+.aside-header__item:last-of-type
+{
+  margin-left: auto;
+}
+
+.aside-header__actions {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  gap:16.73px;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  cursor: pointer;
+}
+.aside-footer__actions,
+.aside-header__actions > *:first-child {
+  margin-left: -20px; 
+}
+
+.buttom {
+  display: inline-block;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s ease-in;
+  
+}
+
+.buttom:hover
+{
+    opacity: 0.5;
+    transition: opacity 0.9s;
+}
+
+.aside-nav {
+  padding:0;
+  margin: 0;
+}
+
+.nav-list {
+  list-style: none;
+  position: relative;
+}
+
+.nav-list__item{
+   font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 32px;
+  display: block;
+  transition: 0.4s ease;
+}
+.nav-list__link
+{
+  transition: color 0.2s ease;
+}
+.nav-list__link:hover
+{
+  color: #7E7E82; 
+   z-index: 1; 
+}
+
+.nav-list__item:hover::before 
+{
+  content:'';
+  background-image: url('public/img/highlight.svg');
+  width: 4px;
+  height: 32px;
+  position:absolute;
+  left:-24px;
+  transform: translateY(-5px);
+}
+
+
+/** footer**/
+.aside-footer
+{
+  margin-top:auto;
+}
+
+
+.aside-footer__actions
+{
+  list-style: none;
+  margin: 0;
+  padding:0;
+}
+
+.aside-footer__item
+{
+  display: inline-block;
+  margin:0;
+  height: 40px;
+}
+
+.aside-footer__action
+{
+  margin:0;
+  margin-right:16px;
+}
+
+.aside-footer__email
+{
+  margin-top: 16px;
+  margin-bottom:12px;
+  font-size: 16px;
+}
+
+.aside-footer__phone
+{
+  display:block;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;  
+  letter-spacing: -0.6px;
+  margin-bottom:40px;
+}
+
+.aside-footer__langs
+{
+  list-style: none;
+  padding: 0;
+  margin:0;
+  margin-bottom:32px;
+}
+
+.aside-footer__lang-item
+{
+  display: inline-block;
+}
+
+
+
+.aside-footer__lang:hover 
+{
+  color: #7E7E82;
+}
+
+/** кнопки**/
+.btn-burger {
+  background-image: url('public/img/burger.svg');
+}
+
+.btn-search
+{
+  background-image: url('public/img/search.svg');
+}
+
+.btn-call {
+  background-image: url('public/img/call.svg');
+  margin-right: 10px;
+}
+
+.btn-chat
+{
+  background-image: url('public/img/chat.svg');
+  margin-right: 10px;
+}
+
+.btn-profile
+{
+  background-image: url('public/img/profile.svg');
+}
