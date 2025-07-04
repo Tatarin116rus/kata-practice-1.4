@@ -80,18 +80,17 @@
   margin-left: -20px; 
 }
 
-.buttom {
+.button {
   display: inline-block;
   background-color: white;
   border: none;
   cursor: pointer;
+  transition: 0.3s ease-in;
   width: 40px;
   height: 40px;
-  transition: 0.3s ease-in;
-  
 }
 
-.buttom:hover
+.button:hover
 {
     opacity: 0.5;
     transition: opacity 0.9s;
@@ -163,7 +162,10 @@
   margin:0;
   margin-right:16px;
 }
-
+.aside-footer__contacts {
+  display: flex;
+  flex-direction: column;
+}
 .aside-footer__email
 {
   margin-top: 16px;
@@ -173,7 +175,6 @@
 
 .aside-footer__phone
 {
-  display:block;
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;  
@@ -181,26 +182,36 @@
   margin-bottom:40px;
 }
 
-.aside-footer__langs
-{
-  list-style: none;
-  padding: 0;
-  margin:0;
+.aside-footer__language
+{ 
+  display: flex; 
+  gap: 8px;
   margin-bottom:32px;
 }
 
-.aside-footer__lang-item
+.language-switcher__list
 {
-  display: inline-block;
+  background-color: white; 
 }
 
-
-
-.aside-footer__lang:hover 
+.language-switcher__item
+{
+ display: inline-block;
+}
+.language-switcher__button 
+{
+  display: inline-block;
+  transition: 0.3s ease-in;
+   font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.language-switcher__button:hover 
 {
   color: #7E7E82;
 }
-
+ 
+ 
 /** кнопки**/
 .btn-burger {
   background-image: url('public/img/burger.svg');
@@ -209,20 +220,24 @@
 .btn-search
 {
   background-image: url('public/img/search.svg');
+ 
 }
 
 .btn-call {
   background-image: url('public/img/call.svg');
+
   margin-right: 10px;
 }
 
 .btn-chat
 {
   background-image: url('public/img/chat.svg');
+ 
   margin-right: 10px;
 }
 
 .btn-profile
 {
   background-image: url('public/img/profile.svg');
+ 
 }
