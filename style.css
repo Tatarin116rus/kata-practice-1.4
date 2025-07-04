@@ -58,10 +58,7 @@
   margin-top: 18.73px;
 }
 
-.aside-header__item:last-of-type
-{
-  margin-left: auto;
-}
+ 
 
 .aside-header__actions {
   display: flex;
@@ -74,6 +71,7 @@
   margin: 0;
   background-color: white;
   cursor: pointer;
+  
 }
 .aside-footer__actions,
 .aside-header__actions > *:first-child {
@@ -88,6 +86,7 @@
   transition: 0.3s ease-in;
   width: 40px;
   height: 40px;
+  margin-left: auto;
 }
 
 .button:hover
@@ -215,6 +214,7 @@
 /** кнопки**/
 .btn-burger {
   background-image: url('public/img/burger.svg');
+  margin-left: 0px !important;
 }
 
 .btn-search
