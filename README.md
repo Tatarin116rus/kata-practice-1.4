@@ -1,4 +1,4 @@
-Практическая задача: "Примечание. Построение сеток + БЭМ именование"
+Практическая задача 1.1.3 Проверяемое задание «Верстка блока. Продвинутая стилизация»
 
 1.GitHub Pages: [https://stashkevichyuliyasergeevna.github.io/vite-project/](https://tatarin116rus.github.io/kata-practice-1.4/)
 
