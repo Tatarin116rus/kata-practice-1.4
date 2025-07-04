@@ -214,7 +214,7 @@
 /** кнопки**/
 .btn-burger {
   background-image: url('public/img/burger.svg');
-  margin-left: 0px !important;
+   transform: translateX(20px);
 }
 
 .btn-search
