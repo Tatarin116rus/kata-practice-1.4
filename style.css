@@ -56,7 +56,6 @@
   margin: 0;
   margin-bottom: 50.27px;
   margin-top: 18.73px;
-  margin-left: auto;
 }
 
  
@@ -87,6 +86,7 @@
   width: 40px;
   height: 40px;
   margin-left: auto;
+ 
 }
 
 .button:hover
@@ -210,11 +210,13 @@
   color: #7E7E82;
 }
  
- 
+.aside-header__logo {
+ transform: translateX(20px);
+}
 /** кнопки**/
 .btn-burger {
   background-image: url('public/img/burger.svg');
- 
+  transform: translateX(20px);
 }
 
 .btn-search
