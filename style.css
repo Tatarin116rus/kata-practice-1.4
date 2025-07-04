@@ -56,6 +56,7 @@
   margin: 0;
   margin-bottom: 50.27px;
   margin-top: 18.73px;
+  margin-left: auto;
 }
 
  
@@ -71,7 +72,6 @@
   margin: 0;
   background-color: white;
   cursor: pointer;
-  
 }
 .aside-footer__actions,
 .aside-header__actions > *:first-child {
@@ -214,7 +214,7 @@
 /** кнопки**/
 .btn-burger {
   background-image: url('public/img/burger.svg');
-   transform: translateX(20px);
+ 
 }
 
 .btn-search
