@@ -211,7 +211,7 @@
 }
  
 .aside-header__logo {
- transform: translateX(20px);
+ margin-left: 20px;
 }
 /** кнопки**/
 .btn-burger {
